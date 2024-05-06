@@ -55,10 +55,10 @@ export default class HolbertonCourse {
     }
 
     if (type === 'array') {
-      if (!Array.isArray(value) || !value.every((item) => typeof item === 'string')) {
+      if (!Array.isArray(value) || !value.every((item) => typeof (item) === 'string')) {
         throw new TypeError(message);
       }
-    } else if (typeof value !== type) {
+    } else if (typeof (value) !== type) {
       throw new TypeError(message);
     }
   }
