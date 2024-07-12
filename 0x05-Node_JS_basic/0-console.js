@@ -4,8 +4,7 @@
  * @author Bassey Solomon <https://github.com/Winchestre>
  */
 const displayMessage = (msg) => {
-    console.log(msg);
-  };
-  
-  module.exports = displayMessage;
-  
+  console.log(msg);
+};
+
+module.exports = displayMessage;
